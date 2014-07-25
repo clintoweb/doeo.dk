@@ -5,113 +5,283 @@
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-.content{
-	width: 960px;
-	margin: auto;
+
+
+
+
+
+.loginsite {
+    margin-top: 156px;
+    padding-bottom: 53px;
+    padding-right: 19px;
 }
 
-
-.menu {
-	height: 45px;
-	background-color: #393939;
-	width: 100%;
+.form {
+    width: 272px;
+    height: 82px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
-.menu ul {
-	float: right;
-	position: relative;
-    top: 13px;
-    margin-right: 17px;
+.username {
+    width: 272px;
+    height: 41px;
+    border-bottom: 1px solid #ececec;
+    
 }
 
-.menu li {
-	font-size: 15px;
-	font-family: 'Istok-Web', sans-serif;
-	display: inline;
-	float: left;
-    padding-left: 44px;
+.password {
+
 }
 
-.menu a {
-	color: #ffffff;
+.textuser {
+    color: #d1d1d1;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Istok Web", sans-serif;
+    font-size: 16px;
+    
 }
 
-.header {
-	height: 90px;
-	background-color: #ffffff;
-	padding-top: 45px;
+input[type=text] {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: #393939;
+    font-size: 16px;
 }
 
-.header ul {
-	float: right;
-	padding-right: 48px;
-	padding-top: 15px;
-	font-family: 'Istok-Web', sans-serif;
+input[type=text]:focus, textarea:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: #393939;
+    font-size: 16px;
 }
 
-.header ul li:hover {
-	text-decoration: underline;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-.logo {
-	float: left;
-
+.textpass {
+    color: #d1d1d1;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Istok Web", sans-serif;
+    -webkit-text-security: disc;
+    font-size: 16px;
 }
 
 .login {
-	background-color: #349fd6;
-	width: 90px;
-	height: 45px;
-	text-align: center;
-	float: right;
-	border-radius: 5px;
-	opacity: 1;
-	-webkit-transition: all 0.5s ease;
-  	-moz-transition: all 0.5s ease;
-  	-ms-transition: all 0.5s ease;
-  	-o-transition: all 0.5s ease;
- 	transition: all 0.5s ease;
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+    color: #393939;
+    font-family: "Istok Web", sans-serif;
+    padding-top: 11px;
+    text-align: center;
+    padding-right:3px;
+    width: 136px;
+    height: 41px;
+    background: #f3f3f3; /* Old browsers */
+    background: -moz-linear-gradient(top, #f3f3f3 0%, #e0dfdf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(100%,#e0dfdf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f3f3f3 0%,#e0dfdf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f3f3f3 0%,#e0dfdf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f3f3f3 0%,#e0dfdf 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f3f3f3 0%,#e0dfdf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#e0dfdf',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+        -webkit-box-shadow: 0px 2px 0px 0px rgba(80, 80, 80, 1);
+    -moz-box-shadow:    0px 2px 0px 0px rgba(80, 80, 80, 1);
+    box-shadow:         0px 2px 0px 0px rgba(80, 80, 80, 1);
 }
 
-.login:hover {
-	background-color: #0ed784
+.login:active {
+    font-size: 16px;
+    float: left;
+    margin-top: 22px;
+    color: #393939;
+    font-family: "Istok Web", sans-serif;
+    padding-top: 11px;
+    text-align: center;
+    padding-right:3px;
+    width: 136px;
+    height: 41px;
+    background: #f3f3f3; /* Old browsers */
+    background: -moz-linear-gradient(top, #f3f3f3 0%, #e0dfdf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3),         color-stop(100%,#e0dfdf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f3f3f3 0%,#e0dfdf 100%); /*                   Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f3f3f3 0%,#e0dfdf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f3f3f3 0%,#e0dfdf 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f3f3f3 0%,#e0dfdf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3',        endColorstr='#e0dfdf',GradientType=0 ); /* IE6-9 */
+    border-radius: 5px;
+    box-shadow: none;
 }
 
-	.login .login_wrapper_link{
-		padding-top: 15px;
-		padding-left: 9px;
-		float: left;
-	}
-
-.logintext {
-	color: #fff;
-	font-family: 'Istok-Web', sans-serif;
+.forgot .glemt {
+    -o-transition:.0.5s;
+    -ms-transition:.0.5s;
+    -moz-transition:0.5s;
+    -webkit-transition:0.5s;
+    float: right;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-right: 16px;
+    padding-top: 11px;
+    color: #fff;
+    font-family: "Istok Web", sans-serif;
+    
 }
 
-.key {
-	float: left;
-	padding-top: 14px;
-	padding-left: 14px;
+.forgot .glemt:hover {
+    color: #ff9f9f;
+    text-decoration: none;
+
 }
 
-.active {
-	border-bottom: 2px;
-	border-color: #349fd6;
+.loading {
+    margin-top: 307px;
 }
 
-.ansog {
-    color: #000;
+
+.spinner {
+  margin: 100px auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
 }
+
+.container1 > div, .container2 > div, .container3 > div {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  position: absolute;
+  -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+  animation: bouncedelay 1.2s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .spinner-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container2 {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.container3 {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+}
+
+.circle1 { top: 0; left: 0; }
+.circle2 { top: 0; right: 0; }
+.circle3 { right: 0; bottom: 0; }
+.circle4 { left: 0; bottom: 0; }
+
+.container2 .circle1 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.container3 .circle1 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.container1 .circle2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.container2 .circle2 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+.container3 .circle2 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+
+.container1 .circle3 {
+  -webkit-animation-delay: -0.6s;
+  animation-delay: -0.6s;
+}
+
+.container2 .circle3 {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.container3 .circle3 {
+  -webkit-animation-delay: -0.4s;
+  animation-delay: -0.4s;
+}
+
+.container1 .circle4 {
+  -webkit-animation-delay: -0.3s;
+  animation-delay: -0.3s;
+}
+
+.container2 .circle4 {
+  -webkit-animation-delay: -0.2s;
+  animation-delay: -0.2s;
+}
+
+.container3 .circle4 {
+  -webkit-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.logintekst {
+    color: #fff;
+    text-align: center;
+}
+
 
 html {
+    width: 272px;
+     margin: 0 auto;
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #349fd6; /* Old browsers */
+    background: -moz-linear-gradient(top, #349fd6 0%, #2e7497 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#349fd6), color-stop(100%,#2e7497)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #349fd6 0%,#2e7497 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #349fd6 0%,#2e7497 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #349fd6 0%,#2e7497 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #349fd6 0%,#2e7497 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#349fd6', endColorstr='#2e7497',GradientType=0 ); /* IE6-9 */
 }
+
 body {
   margin: 0;
 }
@@ -1001,7 +1171,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -3881,7 +4050,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: right;
   }
 }
 .navbar-collapse {
@@ -4194,7 +4363,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #393939;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {

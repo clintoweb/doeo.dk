@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+    <link href="http://fonts.googleapis.com/css?family=Tangerine"rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="notifications/css/ns-default.css" />
+    <link rel="stylesheet" type="text/css" href="notifications/css/ns-style-growl.css" />
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+    
+</head>
+
+<body>
+    <div class="logincontainer">
+    <div class="loginsite" style="text-align: center">
+            <img src="logodo.png" height="98px" width="163px" />
+    </div>
+    <div class="form">
+        
+            <div class="username">
+                <div class="textuser">
+                    <input type="text" name="usernamen" placeholder="Brugernavn"><br>
+                </div>
+            </div>
+        
+            <div class="password">
+                <div class="textpass">
+                    <input type="text" name="passworn" placeholder="Password"><br>
+                </div>
+            </div>
+        
+        </div>
+        
+                <a href="Loading.html"><div class="login">
+                    <p>Login</p>
+                </div>
+                </a>
+        
+                <div class="forgot">
+                    <a id="lolol" class="glemt" href="#"><p>Glemt password?</p></a>
+                </div>
+    </div>
+    
+
+    <script src="notifications/js/modernizr.custom.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="notifications/js/classie.js"></script>
+		<script src="notifications/js/notificationFx.js"></script>
+<script>
+			(function() {
+				var bttn = document.getElementById( 'lolol' );
+
+				// make sure..
+				bttn.disabled = false;
+
+				bttn.addEventListener( 'click', function() {
+					// simulate loading (for demo purposes only)
+					classie.add( bttn, 'active' );
+					setTimeout( function() {
+
+						classie.remove( bttn, 'active' );
+						
+						// create the notification
+						var notification = new NotificationFx({
+							message : '<p>Det ser ud til at du har skrevet dit <b>Password</b> eller <b>Brugernavn</b> forkert, har du <a href="http://bouncejs.com/">Glemt Password?</a>. </p>',
+							layout : 'growl',
+							effect : 'jelly',
+							type : 'notice', // notice, warning, error or success
+							onClose : function() {
+								bttn.disabled = false;
+							}
+						});
+
+						// show the notification
+						notification.show();
+
+					}, 200 );
+					
+					// disable the button (for demo purposes only)
+					this.disabled = true;
+				} );
+			})();
+		</script>
+
+</body>
+</html>
