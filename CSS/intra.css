@@ -1,10 +1,18 @@
-    .content{
-        width: 100%;
-        margin: auto;   
-        height: 476px;
-    }
+html {
+	background-color: #000;
+}
 
+.header {
+	margin:0 auto;
+	width: 960px;
+	background-color: #fff;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
 
+.header .logo {
+	float: left;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
