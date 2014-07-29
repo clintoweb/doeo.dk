@@ -1,10 +1,114 @@
-    .content{
-        width: 100%;
-        margin: auto;   
-        height: 476px;
-    }
+/*!
+<--- BLACKFOOTER --->
+*/
+.footercontent {
+	position:absolute;
+    bottom:0px;
+	width: 100%;
+}
 
+.footerwide {
+	height: 250px;
+	background-color: #0f1113;
+}
 
+.footer {
+	height: 205px;
+	width: 960px;
+	padding-top: 45px;
+	margin:0 auto;
+	font-family: "Isotek Web", sans-serif;
+}
+
+.col-1 {
+	width: 320px;
+	height: 160px;
+	float: left;
+	color: #fff;
+}
+
+.col-1 p {
+	color: #94999c;
+	font-size: 14px;
+	line-height: 190%;
+}
+
+.col-2 {
+	width: 274px;
+	height: 160px;
+	float: left;
+	padding-left: 45px;
+	color: #fff;
+	border-left: 1px solid #354750;
+}
+
+.col-2 a:link {
+	color: #6d96ab;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 190%;
+	-o-transition:.0.5s;
+    -ms-transition:.0.5s;
+    -moz-transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.col-2 a:link:hover {
+	color: #6bcdff;
+    text-decoration: none;
+}
+
+.col-3 {
+	width: 274px;
+	height: 128px;
+	float: right;
+	padding-left: 45px;
+	color: #fff;
+	padding-top: 32px;
+	border-right: 1px solid #354750;
+}
+
+.col-3 a:link {
+	color: #6d96ab;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 190%;
+	-o-transition:.0.5s;
+    -ms-transition:.0.5s;
+    -moz-transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.col-3 a:link:hover {
+	color: #6bcdff;
+    text-decoration: none;
+}
+
+/*!
+<--- WHITEFOOTER --->
+ */
+
+.whitefooter {
+	font-family: "Isotek Web", sans-serif;
+	font-size: 14px;
+	height: 45px;
+	background-color: #fff;
+}
+
+.whitecontent {
+	width: 960px;
+	padding-top: 16px;
+	margin: 0 auto;
+	color: #393939;
+}
+
+.copyright {
+	float: left;
+}
+
+.madeByIntoweb {
+	float: right;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
