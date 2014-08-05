@@ -1,0 +1,155 @@
+.linksContent {
+	margin:0 auto;
+	width: 960px;
+	margin-top: 20px;
+}
+
+.linksHeader {
+	height: 31px;
+	width: 945px;
+	background-color: #349fd6;
+	padding-left: 15px;
+	padding-top: 14px;
+}
+
+.linksHeader h1 {
+	color: #fff;
+	font-family: "Istok Web", sans-serif;
+	font-size: 18px;
+}
+
+.linksList {
+	color: #393939;
+	font-family: "Istok Web", sans-serif;
+	font-size: 14px;
+	float: right;
+}
+
+.linkNavn {
+	height: 28px;
+	width: 449px;
+	float: left;
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	padding-left: 15px;
+	padding-top: 16px;
+	font-weight: bold;
+}
+
+.linkNavn p {
+	text-decoration: none;
+	color: #349fd6;
+}
+
+.linkNote {
+	height: 28px;
+	width: 286px;
+	float: left;
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	padding-left: 15px;
+	padding-top: 16px;
+	font-style: italic;
+
+}
+
+.linkDato {
+	height: 28px;
+	width: 86px;
+	float: left;
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+	padding-right: 15px;
+	padding-top: 16px;
+	text-align: right;
+}
+
+.linkEdit {
+	width: 32px;
+	height: 32px;
+	float: left;
+	border-right: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	padding-left: 12px;
+	padding-top: 12px;
+
+}
+
+.clips {
+	width: 32px;
+	height: 32px;
+	float: left;
+	border-left: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	padding-left: 12px;
+	padding-top: 12px;
+
+}
+
+.link {
+	background-color: #fff;
+	width: 960px;
+	height: 45px;
+	-o-transition:.0.5s;
+    -ms-transition:.0.5s;
+    -moz-transition:0.5s;
+    -webkit-transition:0.5s;
+}
+
+.link a {
+	color: #393939;
+}
+
+.link:hover {
+	background-color: #ebf8ff;
+
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
