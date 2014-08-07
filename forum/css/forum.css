@@ -1,0 +1,202 @@
+
+/* LEFT ROW */
+
+/* LEFT ROW / PostHeader */
+.postHeader {
+	margin-top: 100px;
+	background-color: #393939;
+	height: 45px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+	font-family: "Istok Web", sans-serif;
+}
+
+#postTitle {
+	float: left;
+	font-weight: bold;
+}
+
+#postBy {
+	float: right;
+}
+
+#postBy a {
+	color: #5cbff2;
+}
+
+
+.postSubheader {
+	height: 38px;
+	background-color: #ebebeb;
+}
+
+.iconColor {
+	padding-top: 11px;
+	color: #5cbff2;
+	float: left;
+}
+
+.postDate p {
+	padding-top: 10px;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-right: 50px;
+}
+
+.postDate {
+	padding-left: 15px;
+}
+
+
+.postReturn {
+	margin-left: 30px;
+}
+
+.postReturn p {
+	padding-top: 10px;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-right: 50px;
+}
+
+
+
+.postComments p {
+	padding-top: 10px;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-right: 50px;
+}
+
+/* LEFT ROW / textBox */
+.postContent {
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 45px;
+}
+
+.textBox {
+	padding-left: 45px;
+	padding-top: 45px;
+	padding-right: 45px;
+	font-family: "Istok web", sans-serif;
+	font-size: 14px;
+}
+
+#italic {
+	font-style: italic;
+}
+
+/* LEFT ROW / Comments */
+
+.comment {
+	margin-top: 45px;
+	margin-bottom: 100px;
+	margin-left: 0px;
+}
+
+.commentAuthor {
+	margin-left: 45px;
+}
+
+.commentAuthor img {
+	float: left;
+}
+
+.authorText {
+	padding-top: 6px;
+	float: left;
+	font-family: "Istok web", sans-serif;
+	margin-left: 15px;
+}
+
+.authorText p {
+	line-height: 130%;
+}
+
+.commentAuthor .authorTitle {
+	color: #393939;
+}
+
+.commentAuthor .authorDate {
+	color: #5cbff2;
+	font-size: 12px;
+	padding-left: 2px;
+}
+
+.commentBox {
+	margin-top: 22px;
+	border-top: 4px solid #349fd6;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	padding: 25px;
+	font-family: "Istok Web", sans-serif;
+	font-size: 14px;
+}
+
+.svar {
+	text-decoration: underline;
+	color: #5cbff2;
+	font-family: "Istok Web", sans-serif;
+	font-size: 14px;
+	float: right;
+}
+
+
+/* RIGHT ROW */
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
