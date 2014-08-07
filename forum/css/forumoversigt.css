@@ -1,0 +1,181 @@
+
+/* TOP GRÅ BAR */
+.forumLatest {
+	margin-top: 90px;
+	height: 45px;
+	background-color: #ebebeb;
+	padding-top: 15px;
+	font-family: "istok web", sans-serif;
+}
+
+.forumLatest a {
+	color: #393939;
+	text-decoration: underline;
+	padding-left: 15px;
+}
+
+/* FORUM STI */
+
+.forumSti {
+	padding-left: 15px;
+	margin-top: 20px;
+	color: #393939;
+	font-family: "istok web", sans-serif;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.forumSti a {
+	color: #349fd6;
+	padding-left: 10px;
+}
+
+/* FORUM OVERSIGT */
+.forumKategori {
+	height: 45px;
+	background-color: #349fd6;
+	font-family: "istok web", sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
+
+.kategoriName {
+	width: 320px;
+	float: left;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-left: 15px;
+}
+
+.kategoriEmner {
+	width: 80px;
+	float: left;
+	padding-top: 12px;
+}
+
+.kategoriIndlag {
+	width: 80px;
+	float: left;
+	padding-top: 12px;
+}
+
+.kategoriLatest {
+	width: 140px;
+	float: left;
+	padding-top: 12px;
+}
+
+/* FORUM SINGLE */
+.forumSingle {
+	height: 65px;
+	background-color: #fff;
+	font-family: "istok web", sans-serif;
+	color: #393939;
+	font-size: 14px;
+	border-bottom: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+	border-right: 1px solid #ececec;
+}
+
+.forumIcon {
+	width: 65px;
+	float: left;
+}
+
+.singleName {
+	padding-top: 19px;
+	width: 255px;
+	float: left;
+}
+
+.singleName p {
+	line-height: 120%;
+}
+
+.singleNameHead {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.singleNameInfo {
+	font-size: 12px;
+}
+
+.singleEmner {
+	padding-top: 23px;
+	width: 80px;
+	float: left;
+	font-size: 12px;
+}
+
+.singleIndlag {
+	padding-top: 23px;
+	width: 80px;
+	float: left;
+	font-size: 12px;
+}
+
+.singleLatest {
+	padding-top: 19px;
+	width: 140px;
+	float: left;
+	font-size: 12px;
+}
+
+.singleLatest p {
+	line-height: 120%;
+}
+
+.latestPostBy a {
+	color: #349fd6;
+}
+
+/* SPACER */
+.
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
